@@ -1,14 +1,10 @@
+/* page uno style */
 body {
-  background-color: powderblue;
-
+  background-color: #99ffcc;
 }
 h1 {
-  color: black;
-  text-align: center;
-
+  color: #1a0033;
 }
 p {
-  color: purple;
-  font-style: italic;
-
+  color: #1a0033;
 }
