@@ -1,0 +1,17 @@
+h1 {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #1a0033;
+}
+
+h6{
+  font-style: oblique;
+  font-size: 8px;
+  font-family: Arial;
+  color: #1a0033;
+}
+body {
+background-color: #99ffcc;
+}
