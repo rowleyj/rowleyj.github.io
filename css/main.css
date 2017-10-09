@@ -1,15 +1,17 @@
 h1#header_name{
   font-size: 65px;
-  text-align: right;
+  text-align: center;
+  background-color: #0070a8;
+  background-position: center;
+  font-variant: small-caps;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 h1 {
   font-style: italic;
   font-weight: bold;
   font-family: Arial;
-  font-variant: small-caps;
   color: #1a0033;
-  background-color: #0070a8;
-  background-position: center;
 }
 h2{
   font-style: italic;
