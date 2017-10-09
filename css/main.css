@@ -1,7 +1,7 @@
 h1#header_name{
   font-size: 65px;
   text-align: center;
-  background-image: url(images/coding_globe.jpg);
+  background-image: url("images/coding_globe.jpg");
   font-variant: small-caps;
   /*margin-left: 350px;
   margin-right: 350px; */
