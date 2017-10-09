@@ -4,13 +4,8 @@ h1 {
   font-weight: bold;
   font-family: Arial;
   color: #1a0033;
-}
-
-h6{
-  font-style: oblique;
-  font-size: 8px;
-  font-family: Arial;
-  color: #1a0033;
+  background-color: LightSlateGray;
+  background-position: center;
 }
 h2{
   font-style: italic;
@@ -25,6 +20,13 @@ h5{
   color: #1a0033;
   font-size: 18px;
 }
+h6{
+  font-style: oblique;
+  font-size: 8px;
+  font-family: Arial;
+  color: #1a0033;
+
+}
 p{
   text-indent: 40px;
   font-family: Arial;
@@ -32,7 +34,11 @@ p{
 li{
   font-family: Arial;
   font-size: 16px;
+  list-style-type: circle;
+  list-style-position: inside;
 }
 body {
 background-color: #99ffcc;
+margin: 50px;
+border-style: ridge;
 }
