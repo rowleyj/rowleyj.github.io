@@ -21,10 +21,6 @@ h2{
   font-family: Arial;
   color: #1a0033;
 }
-h5#solar_panel_head{
-  float: right;
-  margin: auto;
-}
 h5{
   font-style: italic;
   font-family: Arial;
@@ -44,6 +40,15 @@ p{
   font-family: Arial;
 }
 ul#contact_links{
+  display: inline;
+}
+li #email_contact{
+   display: inline;
+}
+li #facebook_contact{
+  display: inline;
+}
+li #linkedin_contact{
   display: inline;
 }
 li{
