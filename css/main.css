@@ -6,7 +6,7 @@ h1#header_name{
   font-variant: small-caps;
   margin-left: 350px;
   margin-right: 350px;
-  text-shadow: 4px 5px black;
+  text-shadow: 4px 5px lightgray;
 }
 h1 {
   font-style: italic;
@@ -40,17 +40,9 @@ p{
   font-family: Arial;
 }
 ul#contact_links{
-  display: inline;
+  display: inline-block;
 }
-li #email_contact{
-   display: inline;
-}
-li #facebook_contact{
-  display: inline;
-}
-li #linkedin_contact{
-  display: inline;
-}
+
 li{
   font-family: Arial;
   font-size: 16px;
