@@ -16,6 +16,7 @@ ul#nav_bar li{
 li a{
     display: block;
     padding-left: 220px;
+    padding-right: 120px;
     background-color: white;
     background-size: cover;
 }
