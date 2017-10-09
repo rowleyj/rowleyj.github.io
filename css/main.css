@@ -1,6 +1,7 @@
 header{
   background-image: url("../images/holding_code.jpg");
-  background-size: cover;
+  height: auto;
+  width: auto;
 }
 h1#header_name{
   font-size: 65px;
