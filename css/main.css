@@ -15,9 +15,9 @@ ul#nav_bar li{
 }
 li a{
     display: block;
-    padding-left: 160px;
-    padding-right: 140px;
-    color: white;
+    padding-left: 240px;
+    padding-right: 220px;
+    background-color: powderblue;
 }
 h1#header_name{
   font-size: 65px;
