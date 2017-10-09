@@ -1,10 +1,11 @@
+header{
+  background-image: url("../images/coding_globe.jpg");
+  background-size: cover;
+}
 h1#header_name{
   font-size: 65px;
   text-align: center;
-  background-image: url("../images/coding_globe.jpg");
   font-variant: small-caps;
-  /*margin-left: 350px;
-  margin-right: 350px; */
   text-shadow: 4px 5px lightgray;
 }
 h1 {
