@@ -2,10 +2,9 @@ h1#header_name{
   font-size: 65px;
   text-align: center;
   background-image: url(images/coding_globe.jpg);
-  background-position: center;
   font-variant: small-caps;
-  margin-left: 350px;
-  margin-right: 350px;
+  /*margin-left: 350px;
+  margin-right: 350px; */
   text-shadow: 4px 5px lightgray;
 }
 h1 {
