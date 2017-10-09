@@ -10,8 +10,13 @@ ul#nav_bar{
   color: white;
 
 }
-ul#navbar li{
-  display: inline;
+ul#nav_bar li{
+  float: left;
+}
+li a{
+    display: block;
+    padding: 8px;
+    background-color: white;
 }
 h1#header_name{
   font-size: 65px;
