@@ -19,6 +19,11 @@ h2{
   font-family: Arial;
   color: #1a0033;
 }
+h5{
+  font-style: italic;
+  font-family: Arial;
+  color: #1a0033;
+}
 p{
   text-indent: 40px;
   font-family: Arial;
