@@ -17,8 +17,7 @@ li a{
     display: block;
     padding-left: 160px;
     padding-right: 140px;
-    background-color: white;
-    background-size: cover;
+    color: white;
 }
 h1#header_name{
   font-size: 65px;
