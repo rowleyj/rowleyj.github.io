@@ -3,6 +3,15 @@ header{
   height: auto;
   width: auto;
 }
+ul#nav_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+ul#navbar li {
+  display: inline;
+}
 h1#header_name{
   font-size: 65px;
   text-align: center;
