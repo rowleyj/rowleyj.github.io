@@ -4,8 +4,9 @@ h1#header_name{
   background-color: #0070a8;
   background-position: center;
   font-variant: small-caps;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 350px;
+  margin-right: 350px;
+  text-shadow: 4px 5px black;
 }
 h1 {
   font-style: italic;
@@ -19,6 +20,10 @@ h2{
   font-weight: bold;
   font-family: Arial;
   color: #1a0033;
+}
+h5#solar_panel_head{
+  float: right;
+  margin: auto;
 }
 h5{
   font-style: italic;
@@ -38,11 +43,23 @@ p{
   text-indent: 40px;
   font-family: Arial;
 }
+ul#contact_links{
+  display: inline;
+}
 li{
   font-family: Arial;
   font-size: 16px;
   list-style-type: circle;
   list-style-position: inside;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: gold;
 }
 body {
 background-color: #99ffcc;
