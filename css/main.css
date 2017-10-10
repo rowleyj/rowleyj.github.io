@@ -4,6 +4,7 @@ header{
 }
 .navbar-toggleable-md{
   background-color: white;
+  opacity: 0.1;
   float: right;
 }
 
@@ -11,7 +12,7 @@ li a{
     display: block;
     padding-left: 140px;
     padding-right: 120px;
-    background-color: powderblue;
+    background-color: clear;
 }
 h1#header_name{
   font-size: 65px;
