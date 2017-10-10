@@ -47,10 +47,11 @@ li{
 }
 .vid_title{
   text-align: center;
-  margin: auto;
+
 
 }
 .vid_container{
-  margin: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
   border: 2px solid black;
 }
