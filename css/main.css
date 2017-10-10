@@ -51,8 +51,7 @@ a:hover {
   height: 45px;
 }
 .navbar{
- background: silver;
- border: solid 3px;
+ background: clear;
 }
 .navbar-inverse{
   float:right;
