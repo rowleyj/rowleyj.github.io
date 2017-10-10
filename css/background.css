@@ -11,6 +11,7 @@ p{
   color: white;
   background: rgba(0, 0, 0, 0.5);
   display: inline;
+  padding:10px;
 }
 h2{
   font-style: italic;
@@ -21,6 +22,9 @@ h2{
   background: rgba(0, 0, 0, 0.5);
   display: inline;
 }
+h2 #about_title{
+  text-align: center;
+}
 h5{
   font-style: italic;
   font-family: palatino;
@@ -30,7 +34,8 @@ h5{
   display: inline;
 }
 ul#contact_links{
-  display: inline-block;
+  list-style-type: none;
+  display: inline;
   color: white;
   background: rgba(0, 0, 0, 0.25);
 }
