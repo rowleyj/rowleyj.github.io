@@ -10,6 +10,7 @@ p{
   font-family: palatino;
   color: white;
   background: rgba(0, 0, 0, 0.5);
+  display: inline;
 }
 h2{
   font-style: italic;
@@ -18,6 +19,7 @@ h2{
   font-family: palatino;
   color: white;
   background: rgba(0, 0, 0, 0.5);
+  display: inline;
 }
 h5{
   font-style: italic;
@@ -41,6 +43,7 @@ li{
 }
 div#vid_title{
   text-align: center;
+  margin: auto;
 
 }
 div#vid_container{
