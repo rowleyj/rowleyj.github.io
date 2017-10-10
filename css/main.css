@@ -66,21 +66,21 @@ a:hover {
   color: white;
   text-decoration: none;
   border: solid 3px;
-  padding-right: 3px;
+  padding: 7px;
 }
 .nav-link:visited{
   background-color: clear;
   color: white;
   text-decoration: none;
   border: solid 3px;
-  padding-left: 7px;
+  padding: 7px;
 }
 .nav-link:hover{
   background-color: clear;
   color: gold;
   text-decoration: none;
   border: solid 3px;
-  padding-right: 3px;
+  padding: 7px;
 }
 
 body {
