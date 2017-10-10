@@ -2,15 +2,7 @@ header{
   height: auto;
   width: auto;
 }
-.navbar{
 
-}
-.navbar-inverse{
-  float:right;
-}
-.navbar-toggleable-md{
-  float: right;
-}
 
 h1#header_name{
   font-size: 65px;
@@ -57,8 +49,13 @@ a:hover {
 /* Nav*/
 .nav{
   height: 45px;
-  border: 3px;
-  background: linear-gradient(#3f9a15, #388813, #3f9a15, #388813, #3f9a15);
+}
+.navbar{
+ background: silver;
+ border: solid 3px;
+}
+.navbar-inverse{
+  float:right;
 }
 /* Nav Links */
 
