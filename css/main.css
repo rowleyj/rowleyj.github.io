@@ -62,13 +62,16 @@ li{
 }
 a:link {
   color: white;
+  text-decoration: none;
 }
 a:visited {
   color: white;
+  text-decoration: none;
 }
 a:hover {
   color: gold;
   background: clear;
+  text-decoration: none;
 }
 body {
 background-color: #99ffcc;
