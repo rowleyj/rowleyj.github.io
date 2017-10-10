@@ -15,8 +15,8 @@ ul#nav_bar li{
 }
 li a{
     display: block;
-    padding-left: 210px;
-    padding-right: 180px;
+    padding-left: 140px;
+    padding-right: 120px;
     background-color: powderblue;
 }
 h1#header_name{
