@@ -1,5 +1,6 @@
 body{
   background-image: url("../images/sky_background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.75;
 }
