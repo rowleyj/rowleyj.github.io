@@ -16,13 +16,12 @@ li a{
 h1#header_name{
   font-size: 65px;
   text-align: center;
-  color: white;
+  color: black;
   font-family: palatino;
   font-variant: small-caps;
   text-shadow: 4px 5px lightgray;
 }
 h1 {
-  margin: 45px;
   font-style: italic;
   font-weight: bold;
   font-family: Arial;
