@@ -5,17 +5,9 @@ header{
 }
 .navbar-toggleable-md{
   background-color: white;
+  float: right;
 }
-ul#nav_bar{
-  list-style-type: none;
-  margin: 0;
-  padding-bottom: 15px;
-  color: white;
 
-}
-ul#nav_bar li{
-  float: left;
-}
 li a{
     display: block;
     padding-left: 140px;
