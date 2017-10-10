@@ -59,10 +59,10 @@ li{
   font-size: 16px;
 }
 a:link {
-  color: black;
+  color: white;
 }
 a:visited {
-  color: black;
+  color: white;
 }
 a:hover {
   color: gold;
@@ -70,6 +70,5 @@ a:hover {
 body {
 background-color: #99ffcc;
 padding: 5px;
-border-style: solid;
-border-width: 10px;
+
 }
