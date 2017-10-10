@@ -39,3 +39,11 @@ li{
   color: white;
   background: rgba(0, 0, 0, 0.5);
 }
+div#vid_title{
+  text-align: center;
+
+}
+div#vid_container{
+  margin: auto;
+  border: 2px solid black;
+}
