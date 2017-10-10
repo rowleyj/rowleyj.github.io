@@ -1,10 +1,9 @@
 header{
-  background-image: url("../images/holding_code.jpg");
   height: auto;
   width: auto;
 }
 .navbar-toggleable-md{
-  background-color: white;
+  background-color: none;
   float: right;
 }
 
