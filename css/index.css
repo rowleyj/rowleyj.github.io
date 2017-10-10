@@ -3,6 +3,9 @@ body{
   background-repeat: no-repeat;
 }
 h6#host_git{
+  position: absolute;
+  bottom: 0;
+  top:5px;
   text-align: right;
 }
 .center {
