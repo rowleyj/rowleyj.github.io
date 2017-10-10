@@ -75,20 +75,17 @@ a:hover {
 }
 /* Nav Links */
 .nav-link:link{
-  background-color: white;
-  opacity: 0.25;
+  background:rgba(255,255,255, 0.25);
   color: gold;
   text-decoration: none;
 }
 .nav-link:visited{
-  background-color: white;
-  opacity: 0.25;
+  background:rgba(255,255,255, 0.25);
   color: gold;
   text-decoration: none;
 }
 .nav-link:hover{
-  background-color: white;
-  opacity: 0.75;
+  background:rgba(255,255,255, 0.9);
   color: gold;
   text-decoration: none;
 }
