@@ -2,11 +2,7 @@ body{
   background-image: url("../images/space_background.jpg");
   background-repeat: no-repeat;
 }
-h6#host_git{
-  position: static;
-  top: 175px;
-  text-align: right;
-}
+
 .center {
   text-align: center;
   padding-top: 300px
