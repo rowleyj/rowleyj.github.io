@@ -3,6 +3,9 @@ header{
   height: auto;
   width: auto;
 }
+.navbar-toggleable-md{
+  background-color: white;
+}
 ul#nav_bar{
   list-style-type: none;
   margin: 0;
@@ -68,7 +71,7 @@ a:link {
   color: black;
 }
 a:visited {
-  color: blue;
+  color: black;
 }
 a:hover {
   color: gold;
