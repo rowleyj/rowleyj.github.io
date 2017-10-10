@@ -73,7 +73,7 @@ a:hover {
   color: white;
   text-decoration: none;
   border: solid 3px;
-  padding-right: 3px;
+  padding-left: 7px;
 }
 .nav-link:hover{
   background-color: clear;
