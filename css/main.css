@@ -3,8 +3,6 @@ header{
   width: auto;
 }
 .navbar-toggleable-md{
-  background-color: white;
-  opacity: 0.1;
   float: right;
 }
 
@@ -62,17 +60,24 @@ li{
   font-size: 16px;
 }
 a:link {
-  color: white;
+  color: black
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover {
   color: gold;
   background: clear;
   text-decoration: none;
+}
+.nav-link:link{
+  background-color: white;
+  opacity: 0.1;
+  color: gold;
+  text-decoration: none;
+  
 }
 body {
 background-color: #99ffcc;
