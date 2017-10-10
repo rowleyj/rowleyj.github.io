@@ -66,6 +66,7 @@ li{
   font-size: 16px;
 }
 /* Regular Links*/
+/*
 a:link {
   color: black
   text-decoration: none;
@@ -79,6 +80,8 @@ a:hover {
   background: clear;
   text-decoration: none;
 }
+*/
+
 /* Nav Links */
 /*
 .nav-link:link{
