@@ -2,6 +2,12 @@ header{
   height: auto;
   width: auto;
 }
+.navbar{
+
+}
+.navbar-inverse{
+  float:right;
+}
 .navbar-toggleable-md{
   float: right;
 }
@@ -74,21 +80,26 @@ a:hover {
   text-decoration: none;
 }
 /* Nav Links */
+/*
 .nav-link:link{
   background:rgba(255,255,255, 0.25);
-  color: gold;
+  color: black;
   text-decoration: none;
+  margin: 5px;
 }
 .nav-link:visited{
   background:rgba(255,255,255, 0.25);
-  color: gold;
+  color: black;
   text-decoration: none;
+  margin: 5px;
 }
 .nav-link:hover{
   background:rgba(255,255,255, 0.9);
   color: gold;
   text-decoration: none;
+  margin: 5px;
 }
+*/
 body {
 background-color: #99ffcc;
 padding: 5px;
