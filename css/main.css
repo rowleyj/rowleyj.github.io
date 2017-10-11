@@ -52,7 +52,7 @@ a:hover {
 }
 .navbar{
  background: clear;
- border: solid 3px;
+ border:  white solid 5px;
 }
 .navbar-inverse{
   float:right;
