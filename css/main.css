@@ -12,6 +12,10 @@ h1#header_name{
   font-variant: small-caps;
   text-shadow: 4px 5px lightgray;
 }
+h1 #job_title{
+  text-shadow: 4px 5px lightgray;
+  font-family: palatino;
+}
 h1 {
   font-style: italic;
   font-weight: bold;
