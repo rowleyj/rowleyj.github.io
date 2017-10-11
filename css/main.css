@@ -52,6 +52,7 @@ a:hover {
 }
 .navbar{
  background: clear;
+ border: solid 3px;
 }
 .navbar-inverse{
   float:right;
@@ -65,7 +66,6 @@ a:hover {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  border: solid 3px;
   padding: 5px;
 }
 .nav-link:visited{
