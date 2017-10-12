@@ -37,7 +37,7 @@ li{
 /* Regular Links*/
 
 a:link {
-  color: black
+  color: black;
   text-decoration: none;
 }
 a:visited {
