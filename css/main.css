@@ -74,14 +74,14 @@ a:hover {
   color: white;
   text-decoration: none;
   border: solid 3px;
-  padding: 7px;
+  padding: 5px;
 }
 .nav-link:hover{
   background-color: clear;
   color: gold;
   text-decoration: none;
   border: solid 3px;
-  padding: 7px;
+  padding: 5px;
 }
 
 body {
