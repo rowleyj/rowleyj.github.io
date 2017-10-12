@@ -37,15 +37,16 @@ li{
 /* Regular Links*/
 
 a:link {
-  color: black;
+  color: gold;
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: gold;
   text-decoration: none;
 }
 a:hover {
   color: gold;
+  font-weight: bolder;
   background: clear;
   text-decoration: none;
 }
