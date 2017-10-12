@@ -41,18 +41,22 @@ ul#contact_links{
   color: white;
   background: rgba(0, 0, 0, 0.25);
 }
-.award_list {
-  background: clear;
-  font-family: palatino;
-  font-style: italic;
-  align-content: center;
-}
-
 li{
   font-family: Arial;
   font-size: 16px;
   color: white;
   background: rgba(0, 0, 0, 0.5);
+  background: -webkit-linear-gradient(left, black , clear); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black, clear); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, black, clear); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black , clear); /* Standard syntax */
+}
+}
+.award_list {
+  font-family: palatino;
+  font-style: italic;
+  align-content: center;
+  padding-left: 25px;
 }
 img#prof_pic{
   height: 17%;
