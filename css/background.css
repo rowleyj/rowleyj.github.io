@@ -47,9 +47,9 @@ li{
   background: rgba(0, 0, 0, 0.5);
 }
 img#prof_pic{
-  height: 15%;
-  width: 15%;
-  float: right;
+  height: 17%;
+  width: 17%;
+  float: left;
   padding: 5px 10px 10px 10px;
 }
 video {
