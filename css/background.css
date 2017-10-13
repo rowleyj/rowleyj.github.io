@@ -48,7 +48,7 @@ li{
   background: rgba(0, 0, 0, 0);
 }
 }
-.award_list {
+ul#award_list {
   list-style-type: none;
   font-family: palatino;
   font-style: italic;
