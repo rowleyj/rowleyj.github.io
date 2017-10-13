@@ -91,8 +91,8 @@ body {
 .footer{
   position:absolute;
   bottom:0;
-  text-align: centre;
 }
 ul#contact_me{
   display: inline;
+  float: right;
 }
