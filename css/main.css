@@ -1,6 +1,4 @@
-.screen{
-  position: relative;
-}
+
 header{
   height: auto;
   width: auto;
@@ -95,7 +93,7 @@ body {
 }
 /* Footer */
 .footer{
-  position:absolute;
+  position:fixed;
   bottom:0;
   right: 0;
 }
@@ -103,7 +101,3 @@ ul#contact_me{
   display: inline;
   list-style-type: none;
 }
-/*.connections{
-  float: right;
-}
-*/
