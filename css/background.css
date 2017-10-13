@@ -49,6 +49,7 @@ li{
 }
 }
 .award_list {
+  list-style-type: none;
   font-family: palatino;
   font-style: italic;
   align-content: center;
