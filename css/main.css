@@ -1,3 +1,6 @@
+.screen{
+  position: relative;
+}
 header{
   height: auto;
   width: auto;
@@ -28,6 +31,9 @@ h6{
   color: white;
   text-align: center;
 
+}
+li{
+  list-style-type: none;
 }
 
 /* Regular Links*/
@@ -91,11 +97,13 @@ body {
 .footer{
   position:absolute;
   bottom:0;
+  right: 0;
 }
 ul#contact_me{
   display: inline;
   list-style-type: none;
 }
-.connections{
+/*.connections{
   float: right;
 }
+*/
