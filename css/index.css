@@ -7,3 +7,29 @@ body{
   text-align: center;
   padding-top: 300px
 }
+/* Nav*/
+.navbar{
+ background: clear;
+}
+/* Nav Links */
+
+.nav-link1:link{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: clear;
+  color: clear;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-link1:visited{
+  background-color: clear;
+  color: clear;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-link1:hover{
+  background-color: clear;
+  color: clear;
+  text-decoration: none;
+  padding: 5px;
+}
