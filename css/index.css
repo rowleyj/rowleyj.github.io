@@ -1,9 +1,12 @@
 body{
+}
+.background{
   background-image: url("../images/space_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%
 }
-
 .center {
   text-align: center;
   padding-top: 300px
