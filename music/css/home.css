@@ -5,6 +5,11 @@
   grid-template-columns: repeat (5, [col] 1fr);
   grid-gap: 10px;
   grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header header"
+  "group group . you you"
+  ". us us us ."
+  "footer footer footer footer footer";
 
   background-color: black ;
   background-size: cover;
@@ -14,8 +19,9 @@
 
 /* HEADING */
 .header_home {
-  grid-column: col / span 5;
-  grid-row: 1;
+  /*grid-column: col / span 5;
+  grid-row: 1; */
+  grid-area: header;
 }
 
 .heading {
@@ -75,8 +81,10 @@
 }
 /*FRIEND PLAYLISTS */
 .group_ears {
-  grid-row: 3;
+  /*grid-row: 3;
   grid-column: 1 / span 2;
+  */
+  grid-area: group;
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
   border-radius: 2px;
@@ -87,8 +95,10 @@
 }
 /* RECENTLY PLAYED */
 .your_ears {
-  grid-row: 3;
+  /*grid-row: 3;
   grid-column: 3 / span 2;
+  */
+  grid-area: you;
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
   border-radius: 2px;
@@ -99,8 +109,10 @@
 }
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
-  grid-row: 4 / 5;
+  /*rid-row: 4 / 5;
   grid-column: 2 / span 3;
+  */
+  grid-area: us;
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
   border-radius: 2px;
@@ -111,8 +123,10 @@
 }
 /*FOOTER */
 .footer_home {
-  grid-row: 6;
+  /*grid-row: 6;
   grid-column: 1 / span 5;
+  */
+  grid-area: footer;
   background-color: rgb(255, 204, 102);
   border: 5px solid white;
 }
@@ -131,4 +145,10 @@ h1, h2, h3, h4, h5, h6{
 }
 li{
   color: white;
+}
+a#brand{
+  color: gold;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 20px;
 }
