@@ -2,23 +2,26 @@
 .home_page{
   display: grid;
 
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat (5, [col] 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(185px, auto);
 
-  grid-template-areas:
+  /*grid-template-areas:
   "navbar-navbrowse navbar-brand . nav-link_login nav-link_login"
   "group_ears group_ears . your_ears your_ears"
   ". our_ears our_ears our_ears ."
   "footer_home footer_home footer_home footer_home footer_home";
-
-  background-color: rgb(140, 26, 255) ;
+*/
+  background-color: rgb(217, 179, 255) ;
   background-size: cover;
+  border: 5px solid black;
 }
+
 
 /* HEADING */
 .header_home {
-
+  grid-column: col / span 5;
+  grid-row: 1;
 }
 
 .heading {
@@ -78,7 +81,8 @@
 }
 /*FRIEND PLAYLISTS */
 .group_ears {
-
+  grid-row: 3;
+  grid-column: 1 / span 2;
 }
 
 .ge_container {
@@ -86,7 +90,8 @@
 }
 /* RECENTLY PLAYED */
 .your_ears {
-
+  grid-row: 3;
+  grid-column: 3 / span 2;
 }
 
 .ye_container {
@@ -94,7 +99,8 @@
 }
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
-
+  grid-row: 4 / 5;
+  grid-column: 2 / span 3;
 }
 
 .oe_container {
@@ -102,7 +108,8 @@
 }
 /*FOOTER */
 .footer_home {
-
+  grid-row: 6;
+  grid-column: 1 / span 5;
 }
 /* CONTACT LINKS */
 .contact_us {
