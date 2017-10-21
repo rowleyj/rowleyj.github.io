@@ -10,7 +10,10 @@
   "navbar-navbrowse navbar-brand . nav-link_login nav-link_login"
   "group_ears group_ears . your_ears your_ears"
   ". our_ears our_ears our_ears ."
-  "footer_home footer_home footer_home footer_home footer_home"
+  "footer_home footer_home footer_home footer_home footer_home";
+
+  background-color: rgb(140, 26, 255) ;
+  background-size: cover;
 }
 
 /* HEADING */
@@ -70,8 +73,7 @@
 }
 /* MAIN BODY */
 .body_home {
-  background-color: rgb(140, 26, 255) ;
-  background-size: cover;
+
 
 }
 /*FRIEND PLAYLISTS */
