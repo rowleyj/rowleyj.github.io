@@ -1,0 +1,97 @@
+/*Page wrapper */
+.home_page{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+/* HEADING */
+.header_home {
+
+}
+
+.heading {
+
+}
+ /*NAV*/
+.navbar {
+
+}
+
+.navbar-inverse {
+
+}
+
+.container {
+
+}
+
+.collapse {
+
+}
+
+.navbar-collapse {
+
+}
+/* NAV TO LEFT OF NAME */
+.navbar-navone {
+
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+.navbar-header {
+
+}
+
+.navbar-brand {
+
+}
+/*NAV TO RIGHT OF NAME */
+.navbar-navtwo {
+
+}
+/* MAIN BODY */
+.body_home {
+  background-color: rgb(140, 26, 255) ;
+
+}
+/*FRIEND PLAYLISTS */
+.group_ears {
+
+}
+
+.ge_container {
+
+}
+/* RECENTLY PLAYED */
+.your_ears {
+
+}
+
+.ye_container {
+
+}
+/* RECOMMENDED PLAYLISTS */
+.our_ears {
+
+}
+
+.oe_container {
+
+}
+/*FOOTER */
+.footer_home {
+
+}
+/* CONTACT LINKS */
+.contact_us {
+
+}
