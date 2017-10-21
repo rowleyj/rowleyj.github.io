@@ -1,9 +1,16 @@
 /*Page wrapper */
 .home_page{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(185px, auto);
+
+  grid-template-areas:
+  "navbar-navbrowse navbar-brand . nav-link_login nav-link_login"
+  "group_ears group_ears . your_ears your_ears"
+  ". our_ears our_ears our_ears ."
+  "footer_home footer_home footer_home footer_home footer_home"
 }
 
 /* HEADING */
@@ -35,7 +42,7 @@
 
 }
 /* NAV TO LEFT OF NAME */
-.navbar-navone {
+.navbar-navbrowse {
 
 }
 
@@ -43,7 +50,10 @@
 
 }
 
-.nav-link {
+.nav-link_login {
+
+}
+.nav-link_signup{
 
 }
 
@@ -61,6 +71,7 @@
 /* MAIN BODY */
 .body_home {
   background-color: rgb(140, 26, 255) ;
+  background-size: cover;
 
 }
 /*FRIEND PLAYLISTS */
