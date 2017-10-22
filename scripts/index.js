@@ -1,3 +1,0 @@
-/* this is a comment
-and im learning how to use javascript
-*/
