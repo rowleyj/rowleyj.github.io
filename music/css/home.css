@@ -160,7 +160,19 @@ a#brand{
 .contact_us {
   display: inline;
   list-style-type: none;
-
+  margin-top: -20px;
+}
+li#mail {
+  margin-top: -20px;
+}
+li#facebook {
+  margin-top: -20px;
+}
+li#twitter {
+  margin-top: -20px;
+}
+li#instagram {
+  margin-top: -20px;
 }
 ul{
   list-style-type: none;
