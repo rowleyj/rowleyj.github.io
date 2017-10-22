@@ -166,8 +166,6 @@ a#brand{
 }
 /*FOOTER */
 .footer_home {
-  background-color: black;
-  border: 5px solid white;
 }
 /* CONTACT LINKS */
 .contact_us {
@@ -183,7 +181,13 @@ h1, h2, h3, h4, h5, h6{
   color: white;
   text-align: center;
 }
+.interior_titles {
+  color: black;
+}
 li{
   color: white;
   text-align: center;
+}
+.interior_list{
+  color: black
 }
