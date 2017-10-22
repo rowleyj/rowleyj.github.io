@@ -51,7 +51,16 @@ border:  white solid 5px;
 .nav-item {
 
 }
-
+.nav-link_browse{
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: clear;
+  color: white;
+  text-decoration: none;
+  border: clear 3px;
+  padding: 5px;
+}
 .nav-link_login {
   float: right;
   font-size: 20px;
