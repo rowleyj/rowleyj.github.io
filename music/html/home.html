@@ -49,15 +49,15 @@
             </div>
             <div class="row"> <!-- row 2 inside group_ears !-->
               <div class="col-2">
-                <h3 class="interior_titles">Friends:</h3>
+                <h3 id="list_heading">Friends:</h3>
               </div>
               <div class="col-10">
-                <h3 class="interior_titles">Playlists:</h3>
+                <h3 id="list_heading">Playlists:</h3>
               </div>
             </div>
             <div class="row"> <!-- row 3 inside group_ears !-->
               <div class="col-2">
-                <ul >
+                <ul id="friend_list">
                   <li class="interior_list">FRIEND</li>
                   <li class="interior_list">FRIEND</li>
                   <li class="interior_list">FRIEND</li>
@@ -67,7 +67,7 @@
                 </ul>
               </div>
               <div class="col-10">
-                <ul>
+                <ul id="playlist">
                   <li class="interior_list">PLAYLIST</li>
                   <li class="interior_list">PLAYLIST</li>
                   <li class="interior_list">PLAYLIST</li>
@@ -79,59 +79,140 @@
             </div>
           </div> <!--group_ears ends!-->
         </div>
-        <div class="col-2">
 
+        <div class="col-2">
+<!-- SPACE BETWEEN GROUPS !-->
         </div>
-        <div class="col-5">
+
+        <div class="col-5">  <!-- your_ears begins !-->
           <div class="your_ears">
-            <h3>Your Ears</h3>
-            <h5>Here is what you have been listening to:</h5>
-            <div class="ye_container">
-              <!-- There is where the playlists will go including links !-->
-              <ol>
-                <li> PLAYLIST 1 </li>
-                <li> PLAYLIST 2 </li>
-                <li> PLAYLIST 3 </li>
-                <li> PLAYLIST 4 </li>
-                <li> PLAYLIST 5 </li>
-                <li> PLAYLIST 6 </li>
-              </ol>
-            </div> <!--ye_container ends!-->
+            <div class="row"> <!-- row 1 within your_ears !-->
+              <div class="col-12">
+                  <h2 class="interior_titles">Your Ears</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <h3 id="list_heading">Recently Played</h3>
+              </div>
+              <div class="col-4">
+                <h3 id="list_heading">Last Updated</h3>
+              </div>
+              <div class="col-4">
+                <h3 id="list_heading">Plays</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">   <!-- There is where the playlists will go including links !-->
+                <ul id="playlist">
+                  <li> PLAYLIST 1 </li>
+                  <li> PLAYLIST 2 </li>
+                  <li> PLAYLIST 3 </li>
+                  <li> PLAYLIST 4 </li>
+                  <li> PLAYLIST 5 </li>
+                  <li> PLAYLIST 6 </li>
+                </ul>
+              </div>
+              <div class="col-4"> <!-- last date updated -> whenever someone adds to a playlist !-->
+                <ul id="update_date">
+                  <li> DATE 1 </li>
+                  <li> DATE 2 </li>
+                  <li> DATE 3 </li>
+                  <li> DATE 4 </li>
+                  <li> DATE 5 </li>
+                  <li> DATE 6 </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul id="plays">
+                  <li> a </li>
+                  <li> b </li>
+                  <li> c </li>
+                  <li> d </li>
+                  <li> e </li>
+                  <li> f </li>
+                </ul>
+
+
+              </div>
+            </div>
+
+
+
           </div> <!--your_ears ends!-->
         </div>
       </div> <!-- row 2 ends !-->
 
+
 <div class="row"> <!-- row 3 begins !-->
-  <div class="col-12">
-    <p> <br><br><br><br></p>
+  <div class="col-2">
     <!--blank !-->
+  </div>
+<div class="col-8">
+    <div class="our_ears">
+
+        <div class="row">
+          <div class="col-7">
+              <h2 class="interior_titles">Our Ears</h2>
+          </div>
+          <div class="col-5">
+              <h2 class="interior_titles">Our recommendations for you!</h2>
+          </div>
+        </div>
+<div class="row">
+  <div class="col-3">
+    <h3 id="list_heading"> Daily </h3>
+  </div>
+  <div class="col-3">
+    <h3 id="list_heading"> Weekly </h3>
+  </div>
+  <div class="col-3">
+    <h3 id="list_heading"> Monthly </h3>
+  </div>
+  <div class="col-3">
+    <h3 id="list_heading"> Previous Daily Playlists </h3>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <ul id="daily_playlist">
+        <li> song 1 </li>
+        <li> song 2 </li>
+        <li> song 3 </li>
+        <li> song 4 </li>
+        <li> MORE TOMORROW</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <ul id="weekly_playlist">
+        <li> song 1 </li>
+        <li> song 2 </li>
+        <li> song 3 </li>
+      </ul>
+      <h4>REST OF PLAYLIST</h4>
+    </div>
+    <div class="col-3">
+      <ul id="monthly_playlist">
+        <li> song 1 </li>
+        <li> song 2 </li>
+        <li> song 3 </li>
+      </ul>
+      <h4>REST OF PLAYLIST</h4>
+    </div>
+    <div class="col-3">
+      <ul id="bydaily_playlists">
+        <li>Last 7 days</li>
+        <br>
+        <li>Last 30 days</li>
+      </ul>
+    </div>
   </div>
 </div>
-
-<div class="row"> <!-- row 4 begins !-->
-  <div class="col-3">
-    <!--blank !-->
-  </div>
-  <div class="col-6">
-    <div class="our_ears">
-      <h3>Our Ears</h3>
-      <h5>These are our recommendations:</h5>
-      <div class="oe_container">
         <!-- There is where the playlists will go including links !-->
-        <ul>
-          <li> DAILY </li>
-          <li> WEEKLY </li>
-          <li> MOTHLY </li>
-        </ul>
-        <h5> Missed a daily playlist, or just been vibing to our recommendations?</h6>
-        <ul>
-          <li> WEEKLY-BY-DAILY </li>
-          <li> MONTHLY-BY-DAILY </li>
-        </ul>
-      </div> <!--ye_container ends!-->
+
+
     </div> <!--your_ears ends!-->
   </div>
-  <div class="col-3">
+  <div class="col-2">
     <!-- blank !-->
   </div>
 </div> <!-- row 4 ends !-->
