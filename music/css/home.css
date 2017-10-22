@@ -1,27 +1,20 @@
 /*Page wrapper */
 .home_page{
-  display: grid;
-
-  grid-template-columns: repeat (5, [col] 1fr);
-  grid-gap: 10px;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "header header header header header"
-  "group group . you you"
-  ". us us us ."
-  "footer footer footer footer footer";
-
   background-color: black ;
   background-size: cover;
   border: 5px solid black;
+
+  display: grid;
+  grid-template-rows: repeat(5, [row] 250px);
+  grid-template-columns: repeat(5 ,[col] 200px);
+  grid-gap: 10px;
 }
 
 
 /* HEADING */
 .header_home {
-  /*grid-column: col / span 5;
-  grid-row: 1; */
-  grid-area: header;
+  grid-column: col / span5;
+  grid-row: row;
 }
 
 .heading {
@@ -59,6 +52,7 @@ border:  white solid 5px;
 
 }
 .nav-link_browse{
+  float: left;
   font-size: 20px;
   font-weight: bold;
   background-color: clear;
@@ -68,6 +62,7 @@ border:  white solid 5px;
   padding: 5px;
 }
 .nav-link_login {
+  float: right;
   font-size: 20px;
   font-weight: bold;
   background-color: clear;
@@ -77,6 +72,7 @@ border:  white solid 5px;
   padding: 5px;
 }
 .nav-link_signup{
+  float: right;
   font-size: 20px;
   font-weight: bold;
   background-color: clear;
@@ -104,13 +100,12 @@ border:  white solid 5px;
 }
 /*FRIEND PLAYLISTS */
 .group_ears {
-  /*grid-row: 3;
-  grid-column: 1 / span 2;
-  */
-  grid-area: group;
+  grid-column: col / span 2;
+  grid-row: row 2;
+
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .ge_container {
@@ -118,13 +113,12 @@ border:  white solid 5px;
 }
 /* RECENTLY PLAYED */
 .your_ears {
-  /*grid-row: 3;
-  grid-column: 3 / span 2;
-  */
-  grid-area: you;
+  grid-column: col 3 / span 2;
+  grid-row: row 2;
+
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .ye_container {
@@ -132,13 +126,12 @@ border:  white solid 5px;
 }
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
-  /*rid-row: 4 / 5;
-  grid-column: 2 / span 3;
-  */
-  grid-area: us;
+  grid-column: col 1 / span 3;
+  grid-row: row 3;
+
   background-color: rgb(26, 0, 51);
   border: 3px solid white;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .oe_container {
@@ -146,10 +139,9 @@ border:  white solid 5px;
 }
 /*FOOTER */
 .footer_home {
-  /*grid-row: 6;
-  grid-column: 1 / span 5;
-  */
-  grid-area: footer;
+  grid-column: col / span 5;
+  grid-row: row 5;
+  padding: 0;
   background-color: rgb(255, 204, 102);
   border: 5px solid white;
 }
@@ -176,7 +168,7 @@ a#brand{
   font-weight: bolder;
   text-decoration: none;
   font-size: 25px;
-  text-shadow: 4px 5px gold;
+  text-shadow: 1px 2px gold;
   font-family: palatino;
   font-variant: small-caps;
 }
