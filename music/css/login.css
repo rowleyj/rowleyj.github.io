@@ -1,17 +1,18 @@
 /* Bordered form */
 form {
-   
+
 }
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-   width: 100%;
+   width: 30%;
    padding: 12px 20px;
    margin: 8px 0;
    display: inline-block;
    border: 1px solid #ccc;
    box-sizing: border-box;
 }
+
 
 /* Set a style for all buttons */
 button {
@@ -21,7 +22,7 @@ button {
    margin: 8px 0;
    border: none;
    cursor: pointer;
-   width: 100%;
+   width: 10%;
 }
 
 /* Add a hover effect for buttons */
@@ -35,9 +36,12 @@ button:hover {
 }
 
 /* The "Forgot password" text */
-span.psw {
-   float: right;
+span.passw {
    padding-top: 16px;
+   padding-left: 20px;
+}
+span.newacc{
+  padding-left: 20px;
 }
 
 /* Change styles for span and cancel button on extra small screens */

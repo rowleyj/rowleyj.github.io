@@ -16,17 +16,21 @@
           <div class="heading">
             <nav class="navbar navbar-inverse">
               <div class="container">
-                <div class="col-4">
+                <div class="col-6">
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-navbrowse">
                         <a class="nav-item nav-link_browse" href="../html/browse.html">Browse</a>
+                        <div class="navbar-navconnect">
+                          <a class="nav-item nav-link_upload" href="../html/upload.html">Upload</a>
+                          <a class="nav-item nav-link_connect" href="../html/connect.html">Connect with Artists</a>
+                        </div>
                       </div>
                         <div class="navbar-header">
                           <a class="navbar-brand" href="../html/home.html" id="brand" > Audiophiles </a>
                         </div>
                     </div>
                   </div>
-                  <div class="col-8">
+                  <div class="col-6">
                     <div class="navbar-navtwo">
                       <a class="nav-item nav-link_login" href="../html/login.html">Login</a>
                       <a class="nav-item nav-link_signup" href="../html/signup.html">Sign Up</a>
@@ -41,22 +45,38 @@
 
   <div class="login_page">
     <body>
-      <form action="/action_page.php">    <!--        NEED      TO    CREATE    ACTION   PAGE    TO   PROCESS     INPUT !-->
 
+
+<div class="row">
+<div class="col-3">
+  <!--Blank !-->
+</div>
+
+  <div class="col-6">
+    <form action="/action_page.php">    <!--        NEED      TO    CREATE    ACTION   PAGE    TO   PROCESS     INPUT !-->
    <div class="container">
      <label><b>Username</b></label>
      <input type="text" placeholder="Enter Username" name="uname" required>
 
+     <input type="checkbox" checked="checked"> Remember me
+<br> <!-- line break !-->
      <label><b>Password</b></label>
      <input type="password" placeholder="Enter Password" name="psw" required>
+<button type="submit">Login</button>
 
-     <button type="submit">Login</button>
-     <input type="checkbox" checked="checked"> Remember me
    </div>
-   <div class="container" style="background-color:#f1f1f1">
-     <span class="psw">Forgot <a href="#">password?</a></span> <!-- include neccesary steps for password retrieval !-->
+   <div class="container" >
+     <span class="passw">Forgot <a href="#">password?</a></span> <!-- include neccesary steps for password retrieval !-->
+     <span class="newacc"><a id="create_account"href="../html/signup.html">Create Account</a></span> <!-- include neccesary steps for password retrieval !-->
    </div>
  </form>
+  </div>
+
+  <div class="col-3">
+    <!--Blank !-->
+  </div>
+</div>
+
       <br>
       <br>
     </body>
@@ -67,10 +87,7 @@
       <footer> <!-- Include footer (i.e. legal info, contact info, careers, etc) !-->
         <div class="contact_us">
           <div class="col-2">
-            <div class="navbar-navconnect">
-              <a class="nav-item nav-link_upload" href="../html/upload.html">Upload</a>
-              <a class="nav-item nav-link_connect" href="../html/connect.html">Connect with Artists</a>
-            </div>
+            <!-- BLANK !-->
           </div>
           <div class="col-6">
 

@@ -40,9 +40,11 @@ body{
   background: -webkit-radial-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(yellow 10%, purple); /* Standard syntax */
+  background: radial-gradient(cyan 50%, purple); /* Standard syntax */
+  background-position: center;
   background-size: cover;
-  margin: auto;
+  background-repeat:round;
+  margin: 0;
 }
 
 
@@ -93,6 +95,8 @@ width: auto;
   border-bottom-style: outset;
   border-color: black;
   padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 25px 0 0 5px;
 }
 .nav-link_login {
   float: right;
@@ -104,6 +108,8 @@ width: auto;
   color: black;
   text-decoration: none;
   padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 25px 5px 0;
 }
 .nav-link_signup{
   float: right;
@@ -115,6 +121,8 @@ width: auto;
   border-color: black;
   text-decoration: none;
   padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 0 0 10px;
 }
 .nav-link_upload{
   float: left;
@@ -126,6 +134,8 @@ width: auto;
   border-bottom-style: outset;
   border-color: black;
   padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 0 0 0;
 }
 .nav-link_connect{
   float: left;
@@ -137,6 +147,8 @@ width: auto;
   border-bottom-style: outset;
   border-color: black;
   padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 0 0 0;
 }
 
 .navbar-header {
@@ -144,6 +156,7 @@ width: auto;
 
 .navbar-brand {
 float: right;
+
 }
 a#brand{
   color: black;
@@ -167,6 +180,10 @@ a#brand{
 /*FRIEND PLAYLISTS */
 .group_ears {
   background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
+  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(purple 10%, orange); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
@@ -174,6 +191,10 @@ a#brand{
 /* RECENTLY PLAYED */
 .your_ears {
   background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
+  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(purple 10%, orange); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
@@ -181,6 +202,10 @@ a#brand{
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
   background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
+  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(purple 10%, orange); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
@@ -260,12 +285,15 @@ li#list_heading{
   font-variant: small-caps;
   text-decoration: underline;
 }
+a#plist{
+  font-variant: small-caps;
+  font-family: palatino;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
 .interior_titles {
   color: black;
   margin-top: -10px;
   margin-bottom: 0px;
-}
-
-.interior_list{
-  color: black
 }
