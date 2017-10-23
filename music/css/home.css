@@ -18,6 +18,12 @@
     padding: 20px;
     /*border: 2px solid white; will use to see if box stlying works*/
 }
+/*mobile-proof*/
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 .row::after {
     content: "";
     clear: both;
@@ -25,18 +31,18 @@
 }
 /*Page wrapper */
 .home_page{
+
+
+
+}
+body{
   background: red; /* For browsers that do not support gradients */
   background: -webkit-radial-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
   background: radial-gradient(yellow 10%, purple); /* Standard syntax */
-  /*background: -webkit-linear-gradient(60deg, cyan, orange); /* For Safari 5.1 to 6.0 */
-  /*background: -o-linear-gradient(60deg, cyan, orange); /* For Opera 11.1 to 12.0 */
-  /*background: -moz-linear-gradient(60deg, cyan, orange); /* For Firefox 3.6 to 15 */
-  /*background: linear-gradient(60deg, blue, cyan, orange); /* Standard syntax */
   background-size: cover;
-  border: 5px solid black;
-
+  margin: auto;
 }
 
 
@@ -167,16 +173,16 @@ a#brand{
   margin-top: -20px;
 }
 li#mail {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 li#facebook {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 li#twitter {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 li#instagram {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 ul{
   list-style-type: none;
