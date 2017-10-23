@@ -35,6 +35,10 @@
 
 
 }
+img#title_icon{
+  height: 50px;
+  width: 50px;
+}
 body{
   background: red; /* For browsers that do not support gradients */
   background: -webkit-radial-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
@@ -220,16 +224,16 @@ a#brand{
   margin-top: -20px;
 }
 li#mail {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 li#facebook {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 li#twitter {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 li#instagram {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 ul{
   list-style-type: none;
@@ -296,4 +300,15 @@ a#plist{
   color: black;
   margin-top: -10px;
   margin-bottom: 0px;
+}
+div#bottom_box{
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  border-top: white 2px solid;
+  height: auto;
+}
+
+li#footer{
+color: white;
 }
