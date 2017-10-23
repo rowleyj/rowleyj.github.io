@@ -20,7 +20,7 @@
                         <a class="nav-item nav-link_browse" href="../html/browse.html">Browse</a>
                       </div>
                         <div class="navbar-header">
-                          <a class="navbar-brand" href="#" id="brand" > Audiophiles </a>
+                          <a class="navbar-brand" href="../html/home.html" id="brand" > Audiophiles </a>
                         </div>
                     </div>
                   </div>
@@ -86,19 +86,9 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-4">
-                <h3 id="list_heading">Recently Played</h3>
-              </div>
-              <div class="col-4">
-                <h3 id="list_heading">Last Updated</h3>
-              </div>
-              <div class="col-4">
-                <h3 id="list_heading">Plays</h3>
-              </div>
-            </div>
-            <div class="row">
               <div class="col-4">   <!-- There is where the playlists will go including links !-->
                 <ul id="playlist">
+                  <li id="list_heading">Recently Played</li>
                   <li> PLAYLIST 1 </li>
                   <li> PLAYLIST 2 </li>
                   <li> PLAYLIST 3 </li>
@@ -109,6 +99,7 @@
               </div>
               <div class="col-4"> <!-- last date updated -> whenever someone adds to a playlist !-->
                 <ul id="update_date">
+                  <li id="list_heading">Last Updated</li>
                   <li> DATE 1 </li>
                   <li> DATE 2 </li>
                   <li> DATE 3 </li>
@@ -119,6 +110,7 @@
               </div>
               <div class="col-4">
                 <ul id="plays">
+                  <li id="list_heading"># Plays</li>
                   <li> a </li>
                   <li> b </li>
                   <li> c </li>
@@ -126,13 +118,8 @@
                   <li> e </li>
                   <li> f </li>
                 </ul>
-
-
               </div>
             </div>
-
-
-
           </div> <!--your_ears ends!-->
         </div>
       </div> <!-- row 2 ends !-->
@@ -153,22 +140,10 @@
               <h2 class="interior_titles">Our recommendations for you!</h2>
           </div>
         </div>
-<div class="row">
-  <div class="col-3">
-    <h3 id="list_heading"> Daily </h3>
-  </div>
-  <div class="col-3">
-    <h3 id="list_heading"> Weekly </h3>
-  </div>
-  <div class="col-3">
-    <h3 id="list_heading"> Monthly </h3>
-  </div>
-  <div class="col-3">
-    <h3 id="list_heading"> Previous Daily Playlists </h3>
-  </div>
   <div class="row">
     <div class="col-3">
       <ul id="daily_playlist">
+        <li id="list_heading">Daily</li>
         <li> song 1 </li>
         <li> song 2 </li>
         <li> song 3 </li>
@@ -178,29 +153,34 @@
     </div>
     <div class="col-3">
       <ul id="weekly_playlist">
+        <li id="list_heading">Weekly</li>
         <li> song 1 </li>
         <li> song 2 </li>
         <li> song 3 </li>
+        <li> ... </li>
       </ul>
       <h4>REST OF PLAYLIST</h4>
     </div>
     <div class="col-3">
       <ul id="monthly_playlist">
+        <li id="list_heading">Monthly</li>
         <li> song 1 </li>
         <li> song 2 </li>
         <li> song 3 </li>
+        <li> ... </li>
       </ul>
       <h4>REST OF PLAYLIST</h4>
     </div>
     <div class="col-3">
       <ul id="bydaily_playlists">
+        <li id="list_heading">Daily-Compilations</li>
+        <br>
         <li>Last 7 days</li>
         <br>
         <li>Last 30 days</li>
       </ul>
     </div>
   </div>
-</div>
         <!-- There is where the playlists will go including links !-->
 
 
@@ -220,22 +200,31 @@
   <div class="footer_home"> <!-- use 'div' to create divisions on page enabling a much more effective css stylesheet !-->
     <footer> <!-- Include footer (i.e. legal info, contact info, careers, etc) !-->
       <div class="contact_us">
-      <div class="col-3">
+        <div class="col-2">
+          <div class="navbar-navconnect">
+            <a class="nav-item nav-link_upload" href="../html/upload.html">Upload</a>
+            <a class="nav-item nav-link_connect" href="../html/upload.html">Connect with Artists</a>
+          </div>
+        </div>
+        <div class="col-6">
+
+        </div>
+      <div class="col-1">
         <li id="mail"> <a href="mailto:rowleyj@mcmaster.ca?Subject=AudioPhiles%20Inquiry" target="_top" >
           <img src="../images/mail_icon.png" alt="Email" style="width:60px; height:60px; border:4px"></a>
         </li> <!-- MAIL LINK ENDS HERE !-->
       </div>
-      <div class="col-3">
+      <div class="col-1">
         <li id="facebook"> <a href="https://www.facebook.com">
       <img src="../images/fb_logo.png" alt="Facebook" style="width:60px; height:60px; border:4px;"></a>
         </li> <!-- FACEBOOK LINK ENDS HERE !-->
       </div>
-      <div class="col-3">
+      <div class="col-1">
         <li id="twitter"> <a href="https://www.twitter.com"> <!--MAKE TWITTER PAGE !!! !-->
       <img src="../images/twitter_logo.png" alt="Twitter" style="width:60px; height:60px; border:4px;"> <!-- CHANGE LINKEDIN LOGO TO TWITTER LOGO !--></a>
         </li> <!-- TWITTER LINK ENDS HERE !-->
       </div>
-      <div class="col-3">
+      <div class="col-1">
         <li id="instagram"> <a href="https://www.instagram.com"> <!--MAKE INSTAGRAM PAGE !!! !-->
       <img src="../images/instagram_logo.png" alt="Instagram" style="width:60px; height:60px; border:4px;"> <!-- CHANGE LINKEDIN LOGO TO TWITTER LOGO !--></a>
     </li> <!-- INSTAGRAM LINK ENDS HERE !-->

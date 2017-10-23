@@ -116,6 +116,28 @@ width: auto;
   text-decoration: none;
   padding: 5px;
 }
+.nav-link_upload{
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-right-style: outset;
+  border-bottom-style: outset;
+  border-color: black;
+  padding: 5px;
+}
+.nav-link_connect{
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-right-style: outset;
+  border-bottom-style: outset;
+  border-color: black;
+  padding: 5px;
+}
 
 .navbar-header {
 }
@@ -202,7 +224,7 @@ ul#friend_list{
   margin-top: -15px;
 }
 ul#bydaily_playlists{
-  margin-top: -5px;
+  margin-top: -20px;
 }
 ul#daily_playlist{
   margin-top: -20px
