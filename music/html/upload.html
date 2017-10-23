@@ -6,7 +6,7 @@
     <link rel="stylesheet" href=" ../css/home.css" >
     <link rel="stylesheet" href=" ../css/backgrounds.css" >
     <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
-    <title> AudioPhiles - Browse </title>
+    <title> AudioPhiles - Upload </title>
   </head>
 
 <div class="browse_page">
@@ -41,6 +41,15 @@
   <body>
 <br>
 <br>
+<body>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select audio to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Tunes" name="submit">
+</form>
+
+</body>
 <h1>IN DEVELOPMENT</h1>
 <br>
 <br>
