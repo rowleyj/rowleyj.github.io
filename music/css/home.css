@@ -227,15 +227,23 @@ h3#list_heading{
   font-variant: small-caps;
 
 }
+li{
+  color: black;
+  text-align: center;
+}
+li#list_heading{
+  font-weight: bolder;
+  color: black;
+  font-family: palatino;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
 .interior_titles {
   color: black;
   margin-top: -10px;
   margin-bottom: 0px;
 }
-li{
-  color: black;
-  text-align: center;
-}
+
 .interior_list{
   color: black
 }
