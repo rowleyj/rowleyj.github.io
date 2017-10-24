@@ -52,6 +52,7 @@ body{
 }
 
 
+
 /* HEADING */
 .header_home {
 
@@ -292,8 +293,6 @@ a#plist{
 }
 div#bottom_box{
   background-color: black;
-  position: absolute;
-  bottom: 0;
   border-top: white 2px solid;
   height: auto;
 }
@@ -301,9 +300,11 @@ div#last_row{
   background-color: black;
   position: absolute;
   bottom: 0;
+  left: 0;
   border-top: white 2px solid;
   height: auto;
   width: 100%;
+
 }
 
 li#footer{
