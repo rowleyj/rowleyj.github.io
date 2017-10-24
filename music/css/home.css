@@ -23,6 +23,15 @@
     [class*="col-"] {
         width: 100%;
     }
+    div#bottom_box{
+      background-color: clear;
+      border-top: white 2px solid;
+      height: auto;
+    }
+
+    li#footer{
+    color: white;
+    }
 }
 .row::after {
     content: "";
