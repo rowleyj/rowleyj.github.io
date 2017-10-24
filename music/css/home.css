@@ -203,6 +203,19 @@ a#brand{
   border-radius: 10px;
 }
 
+/*featured artists slideshow */
+div.slideshow{
+
+}
+img.featured_slides{
+  height: 200px;
+  width: 100%;
+  background: black;
+  border: white solid 4 px;
+  border-radius: 10px;
+
+}
+
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
   background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */

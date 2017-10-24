@@ -81,6 +81,12 @@
         <div class="col-2">
 <!-- SPACE BETWEEN GROUPS !-->
 <!-- PUT A FEAUTRED ARTIST SLIDESHOW HERE !-->
+<div class="slideshow">
+  <img class="featured_slides" src="../images/goodmorning_joshiiboii.jpg">  <!-- slide 1 !-->
+  <img class="featured_slides" src="../images/rockii_joshiiboii.jpg">  <!-- slide 2 !-->
+  <img class="featured_slides" src="../images/tv_joshiiboii.jpg">  <!-- slide 3 !-->
+  <!-- can add more slides as deemed fit !-->
+</div>
         </div>
 
         <div class="col-5">  <!-- your_ears begins !-->
@@ -189,18 +195,37 @@
         <!-- There is where the playlists will go including links !-->
 
 
-    </div> <!--your_ears ends!-->
+    </div> <!--our_ears ends!-->
   </div>
   <div class="col-2">
     <!-- blank !-->
   </div>
 </div> <!-- row 3 ends !-->
 
+<!-- INCLUDE SCRIPTS BEFORE END OF BODY !-->
+<script>  //slideshow script
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("featured_slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 1000); // Change image every 3 seconds (measured in milliseconds)
+}
+
+</script>
+
     </body>
   </div>
 
 <!--body ends !-->
-<div class="row" id="last_row">
+  <div class="row" id="last_row">
 <div class="col-2">
   <ul>
     <li id="footer">Company</li>
@@ -209,7 +234,6 @@
   </ul>
 </div>
 <div class="col-2">
-  <br>
   <!-- blank !-->
 </div>
 
