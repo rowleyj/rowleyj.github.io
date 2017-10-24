@@ -16,9 +16,8 @@
 [class*="col-"] {
     float: left;
     padding: 20px;
-    /*border: 2px solid white; will use to see if box stlying works*/
 }
-/*mobile-proof*/
+                            /*mobile-proof*/
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
@@ -29,16 +28,14 @@
     clear: both;
     display: table;
 }
-/*Page wrapper */
+                            /*Page wrapper */
 .home_page{
 
 
 
 }
-img#title_icon{
-  height: 50px;
-  width: 50px;
-}
+
+                            /* BODY */
 body{
   background: red; /* For browsers that do not support gradients */
   background: -webkit-radial-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
@@ -50,9 +47,6 @@ body{
   background-repeat:round;
   margin: 0;
 }
-
-
-
 /* HEADING */
 .header_home {
 
@@ -61,7 +55,7 @@ body{
 .heading {
 
 }
- /*NAV*/
+                             /*NAV*/
 .navbar {
 height: auto;
 width: auto;
@@ -82,7 +76,7 @@ width: auto;
 .navbar-collapse {
 
 }
-/* NAV TO LEFT OF NAME */
+                            /* NAV TO LEFT OF NAME */
 .navbar-navbrowse {
 
 }
@@ -102,32 +96,6 @@ width: auto;
   padding: 5px;
   background-color:rgba(255,255,255, 0.7);
   border-radius: 25px 0 0 5px;
-}
-.nav-link_login {
-  float: right;
-  font-size: 20px;
-  font-weight: bold;
-  border-left-style: outset;
-  border-bottom-style: outset;
-  border-color: black;
-  color: black;
-  text-decoration: none;
-  padding: 5px;
-  background-color:rgba(255,255,255, 0.7);
-  border-radius: 0 25px 5px 0;
-}
-.nav-link_signup{
-  float: right;
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  border-left-style: outset;
-  border-bottom-style: outset;
-  border-color: black;
-  text-decoration: none;
-  padding: 5px;
-  background-color:rgba(255,255,255, 0.7);
-  border-radius: 0 0 0 10px;
 }
 .nav-link_upload{
   float: left;
@@ -155,6 +123,34 @@ width: auto;
   background-color:rgba(255,255,255, 0.7);
   border-radius: 0 0 0 0;
 }
+                            /* NAV TO RIGHT OF NAME */
+.nav-link_login {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  border-left-style: outset;
+  border-bottom-style: outset;
+  border-color: black;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 25px 5px 0;
+}
+.nav-link_signup{
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  border-left-style: outset;
+  border-bottom-style: outset;
+  border-color: black;
+  text-decoration: none;
+  padding: 5px;
+  background-color:rgba(255,255,255, 0.7);
+  border-radius: 0 0 0 10px;
+}
+
 
 .navbar-header {
 }
@@ -163,6 +159,7 @@ width: auto;
 float: right;
 
 }
+                            /*title brand */
 a#brand{
   color: black;
   font-weight: bolder;
@@ -171,19 +168,21 @@ a#brand{
   text-shadow: 2px 2px white;
   font-family: palatino;
   font-variant: small-caps;
-
 }
-
-/*NAV TO RIGHT OF NAME */
+img#title_icon{
+  height: 50px;
+  width: 50px;
+}
+                            /*NAV TO RIGHT OF NAME */
 .navbar-navtwo {
 
 }
-/* MAIN BODY */
+                            /* MAIN BODY */
 .body_home {
 
 
 }
-/*FRIEND PLAYLISTS */
+                            /*FRIEND PLAYLISTS */
 .group_ears {
   background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
@@ -193,7 +192,7 @@ a#brand{
   border-radius: 10px;
 }
 
-/* RECENTLY PLAYED */
+                            /* RECENTLY PLAYED */
 .your_ears {
   background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
@@ -203,7 +202,7 @@ a#brand{
   border-radius: 10px;
 }
 
-/*featured artists slideshow */
+                            /*featured artists slideshow */
 div.slideshow{
 
 }
@@ -213,10 +212,12 @@ img.featured_slides{
   background: black;
   border: white solid 4 px;
   border-radius: 10px;
-
+  /*fading animation of slideshow */
+  animation:fading 10s infinite}
+  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
 }
 
-/* RECOMMENDED PLAYLISTS */
+                              /* RECOMMENDED PLAYLISTS */
 .our_ears {
   background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
