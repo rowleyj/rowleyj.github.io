@@ -170,6 +170,7 @@ a#brand{
   text-shadow: 2px 2px white;
   font-family: palatino;
   font-variant: small-caps;
+
 }
 
 /*NAV TO RIGHT OF NAME */
@@ -183,33 +184,30 @@ a#brand{
 }
 /*FRIEND PLAYLISTS */
 .group_ears {
-  background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
-  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(purple 10%, orange); /* Standard syntax */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, purple, cyan , lightgreen); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
 
 /* RECENTLY PLAYED */
 .your_ears {
-  background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
-  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(purple 10%, orange); /* Standard syntax */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, lightgreen, cyan , purple); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
 
 /* RECOMMENDED PLAYLISTS */
 .our_ears {
-  background-color: hsla(290, 100%, 100%, 0.2); /* 360/0 is red, 120 is green, 240 is blue - Hue Saturation Lightness Alpha */
-  background: -webkit-linear-gradient(yellow 10%, purple); /* Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(yellow 10%, purple); /* For Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient(yellow 10%, purple); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(purple 10%, orange); /* Standard syntax */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, purple, cyan, lightgreen, cyan , purple); /* Standard syntax */
   border: 3px solid white;
   border-radius: 10px;
 }
