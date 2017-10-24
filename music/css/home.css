@@ -27,6 +27,8 @@
       background-color: clear;
       border-top: white 2px solid;
       height: auto;
+      bottom: 0;
+      top: auto;
     }
 
     li#footer{
