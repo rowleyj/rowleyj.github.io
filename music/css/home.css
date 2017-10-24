@@ -24,11 +24,7 @@
         width: 100%;
     }
     div#bottom_box{
-      background-color: clear;
-      border-top: white 2px solid;
-      height: auto;
-      bottom: 0;
-      top: auto;
+      display: hidden;
     }
 
     li#footer{
