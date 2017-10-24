@@ -212,15 +212,6 @@ a#brand{
   border-radius: 10px;
 }
 
-/*FOOTER */
-.footer_home {
-}
-/* CONTACT LINKS */
-.contact_us {
-  display: inline;
-  list-style-type: none;
-  margin-top: -20px;
-}
 li#mail {
   margin-top: 20px;
 }
