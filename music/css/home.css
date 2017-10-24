@@ -306,9 +306,10 @@ div#last_row{
   width: 100%;
 }
 /*mobile-proof*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   div#last_row{
     visibility: hidden;
+    display: none;
   }
 }
 
