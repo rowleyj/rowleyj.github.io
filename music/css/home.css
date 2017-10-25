@@ -16,7 +16,7 @@
 .col-12 {width: 100%;}
 [class*="col-"] {
     float: left;
-    padding: 20px;
+    padding: 15px;
 }
                             /*mobile-proof*/
 @media only screen and (max-width: 768px) {
@@ -46,7 +46,9 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat:round;
-  margin: 0;
+  margin: 5px;
+  height: 100%;
+  overflow:hidden;
 }
 /* HEADING */
 .header_home {
@@ -218,6 +220,26 @@ img.featured_slides{
   animation:fading 10s infinite}
   @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
 }
+img.featured_slides1{
+  height: 225px;
+  width: 100%;
+  background: black;
+  border: white solid 4 px;
+  border-radius: 10px;
+  /*fading animation of slideshow */
+  animation:fading 10s infinite}
+  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+img.featured_slides2{
+  height: 225px;
+  width: 100%;
+  background: black;
+  border: white solid 4 px;
+  border-radius: 10px;
+  /*fading animation of slideshow */
+  animation:fading 10s infinite}
+  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
 
                               /* RECOMMENDED PLAYLISTS */
 .our_ears {
@@ -308,19 +330,25 @@ a#plist{
   margin-top: -10px;
   margin-bottom: 0px;
 }
-                              /* footer */
-div#bottom_box{
-  background-color: black;
-  border-top: white 2px solid;
-  height: 100%;
-
+div#r1{
+  height: auto;
+}
+div#r2{
+  height: 30vh;
+}
+div#r3{
+  height: 30vh;
+}
+div#r4{
+  height: auto;
 }
 div#last_row{
-  position: fixed;
+  background-color: black;
+  position: absolute;
   bottom: 0;
   left: 0;
   border-top: white 2px solid;
-  height: 15%;
+  height: 15vh;  /*viewport units */
   width: 100%;
 }
                               /*mobile-proof* make footer disappear on mobile */
