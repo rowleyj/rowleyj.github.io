@@ -1,3 +1,23 @@
 div.browse_window {
     overflow: scroll;
 }
+.btn-genres button{
+  background-color: limegreen;
+    border: 3px solid white; /* Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+.btn-genres button:hover{
+  background-color: cyan;
+}
+li#list_heading{   /* superceding home.css */
+  font-weight: bolder;
+  color: white;
+  font-family: palatino;
+  font-variant: small-caps;
+  text-decoration: underline;
+}

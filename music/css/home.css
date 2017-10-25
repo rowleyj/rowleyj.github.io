@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+                            /*columns*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -204,10 +205,11 @@ img#title_icon{
 
                             /*featured artists slideshow */
 div.slideshow{
-
+  background-color: black;
+  border-radius: 10px;
 }
 img.featured_slides{
-  height: 200px;
+  height: 225px;
   width: 100%;
   background: black;
   border: white solid 4 px;
@@ -226,7 +228,7 @@ img.featured_slides{
   border: 3px solid white;
   border-radius: 10px;
 }
-
+                              /* social media links */
 li#mail {
   margin-top: 20px;
 }
@@ -268,7 +270,7 @@ ul#weekly_playlist{
 ul#monthly_playlist{
   margin-top: -20px
 }
-
+                              /*headings*/
 h1, h2, h3, h4, h5, h6{
   color: black;
   text-align: center;
@@ -293,6 +295,7 @@ li#list_heading{
   font-variant: small-caps;
   text-decoration: underline;
 }
+                              /* playlist links!!! */
 a#plist{
   font-variant: small-caps;
   font-family: palatino;
@@ -305,27 +308,29 @@ a#plist{
   margin-top: -10px;
   margin-bottom: 0px;
 }
+                              /* footer */
 div#bottom_box{
   background-color: black;
   border-top: white 2px solid;
-  height: auto;
+  height: 100%;
+
 }
 div#last_row{
-  background-color: black;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   border-top: white 2px solid;
-  height: auto;
+  height: 15%;
   width: 100%;
 }
-/*mobile-proof*/
+                              /*mobile-proof* make footer disappear on mobile */
 @media only screen and (max-width: 600px) {
   div#last_row{
     visibility: hidden;
     display: none;
   }
 }
+
 
 li#footer{
 color: white;
