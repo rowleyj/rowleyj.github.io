@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+                            /*columns*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -15,7 +16,7 @@
 .col-12 {width: 100%;}
 [class*="col-"] {
     float: left;
-    padding: 20px;
+    padding: 15px;
 }
                             /*mobile-proof*/
 @media only screen and (max-width: 768px) {
@@ -45,7 +46,9 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat:round;
-  margin: 0;
+  margin: 5px;
+  height: 100%;
+  overflow:hidden;
 }
 /* HEADING */
 .header_home {
@@ -77,9 +80,7 @@ width: auto;
 
 }
                             /* NAV TO LEFT OF NAME */
-.navbar-navbrowse {
 
-}
 
 .nav-item {
 
@@ -204,10 +205,31 @@ img#title_icon{
 
                             /*featured artists slideshow */
 div.slideshow{
-
+  background-color: black;
+  border-radius: 10px;
 }
 img.featured_slides{
-  height: 200px;
+  height: 225px;
+  width: 100%;
+  background: black;
+  border: white solid 4 px;
+  border-radius: 10px;
+  /*fading animation of slideshow */
+  animation:fading 10s infinite}
+  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+img.featured_slides1{
+  height: 225px;
+  width: 100%;
+  background: black;
+  border: white solid 4 px;
+  border-radius: 10px;
+  /*fading animation of slideshow */
+  animation:fading 10s infinite}
+  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+img.featured_slides2{
+  height: 225px;
   width: 100%;
   background: black;
   border: white solid 4 px;
@@ -226,7 +248,7 @@ img.featured_slides{
   border: 3px solid white;
   border-radius: 10px;
 }
-
+                              /* social media links */
 li#mail {
   margin-top: 20px;
 }
@@ -268,7 +290,7 @@ ul#weekly_playlist{
 ul#monthly_playlist{
   margin-top: -20px
 }
-
+                              /*headings*/
 h1, h2, h3, h4, h5, h6{
   color: black;
   text-align: center;
@@ -293,6 +315,7 @@ li#list_heading{
   font-variant: small-caps;
   text-decoration: underline;
 }
+                              /* playlist links!!! */
 a#plist{
   font-variant: small-caps;
   font-family: palatino;
@@ -305,9 +328,16 @@ a#plist{
   margin-top: -10px;
   margin-bottom: 0px;
 }
-div#bottom_box{
-  background-color: black;
-  border-top: white 2px solid;
+div#r1{
+  height: auto;
+}
+div#r2{
+  height: 30vh;
+}
+div#r3{
+  height: 30vh;
+}
+div#r4{
   height: auto;
 }
 div#last_row{
@@ -316,16 +346,17 @@ div#last_row{
   bottom: 0;
   left: 0;
   border-top: white 2px solid;
-  height: auto;
+  height: 15vh;  /*viewport units */
   width: 100%;
 }
-/*mobile-proof*/
+                              /*mobile-proof* make footer disappear on mobile */
 @media only screen and (max-width: 600px) {
   div#last_row{
     visibility: hidden;
     display: none;
   }
 }
+
 
 li#footer{
 color: white;

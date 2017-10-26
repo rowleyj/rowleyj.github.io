@@ -2,13 +2,14 @@
 <html>
 
   <head>  <!-- Include all CSS links and necessary metas within head !-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- add height segment!-->
     <link rel="stylesheet" href=" ../css/home.css" >
     <link rel="icon" href="../images/music_icon.png" type="image/gif" sizes="16x16"> <!-- icon on tab !-->
     <title> AudioPhiles </title> <!-- title for tab !-->
   </head>
+
 <div class="home_page">
-  <div class="row">
+  <div class="row" id="r1">
     <div class="header_home"> <!-- use 'div' to create divisions on page enabling a much more effective css stylesheet !-->
       <header> <!-- Include Header(things at top of page) !-->
           <div class="heading">
@@ -16,13 +17,10 @@
               <div class="container">
                 <div class="col-6">
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-navbrowse">
                         <a class="nav-item nav-link_browse" href="../html/browse.html">Browse</a>
-                        <div class="navbar-navconnect">
                           <a class="nav-item nav-link_upload" href="../html/upload.html">Upload</a>
                           <a class="nav-item nav-link_connect" href="../html/connect.html">Connect with Artists</a>
                         </div>
-                      </div>
                         <div class="navbar-header">
                 <a class="navbar-brand" href="../html/home.html" id="brand" > <img id="title_icon"src="../images/music_icon.png" alt=""> Audiophiles <img id="title_icon"src="../images/music_icon.png" alt=""> </a>
                         </div>
@@ -43,7 +41,7 @@
 <!-- body begins !-->
   <div class="body_home"> <!-- use 'div' to create divisions on page enabling a much more effective css stylesheet !-->
     <body> <!-- Main body for code !-->
-      <div class="row"> <!-- row 2 !-->
+      <div class="row" id="r2"> <!-- row 2 !-->
         <div class="col-5">
           <div class="group_ears">
             <div class="row"> <!-- row1 inside group_ears !-->
@@ -136,9 +134,13 @@
       </div> <!-- row 2 ends !-->
 
 
-<div class="row"> <!-- row 3 begins !-->
+<div class="row" id="r3"> <!-- row 3 begins !-->
   <div class="col-2">
-    <!--blank !-->
+    <div class="slideshow">
+      <img class="featured_slides1" src="../images/rockii_joshiiboii.jpg" > <!-- slide 1 !-->
+      <img class="featured_slides1" src="../images/tv_joshiiboii.jpg">  <!-- slide 2 !-->
+      <img class="featured_slides1" src="../images/goodmorning_joshiiboii.jpg">  <!-- slide 3 !-->
+  </div>
   </div>
 <div class="col-8">
     <div class="our_ears">
@@ -198,7 +200,11 @@
     </div> <!--our_ears ends!-->
   </div>
   <div class="col-2">
-    <!-- blank !-->
+    <div class="slideshow">
+      <img class="featured_slides2" src="../images/tv_joshiiboii.jpg">  <!-- slide 1 !-->
+      <img class="featured_slides2" src="../images/goodmorning_joshiiboii.jpg">  <!-- slide 2 !-->
+      <img class="featured_slides2" src="../images/rockii_joshiiboii.jpg" > <!-- slide 3 !-->
+  </div>
   </div>
 </div> <!-- row 3 ends !-->
 
@@ -216,27 +222,47 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 10000); // Change image every 3 seconds (measured in milliseconds)
+    setTimeout(carousel, 10000); // Change image every 10 seconds (measured in milliseconds)
 }
+</script> <!-- end of script !-->
+<script>  //slideshow script
+var slideIndex = 0;
+carousel();
 
-</script>
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("featured_slides1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 10000); // Change image every 10 seconds (measured in milliseconds)
+}
+</script> <!-- end of script !-->
+<script>  //slideshow script
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("featured_slides2");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 10000); // Change image every 10 seconds (measured in milliseconds)
+}
+</script> <!-- end of script !-->
 
     </body>
-  </div>
+    <footer>
+    </div>
 
-<!--body ends !-->
-  <div class="row" id="last_row">
-<div class="col-2">
-  <ul>
-    <li id="footer">Company</li>
-    <li id="footer">About AudioPhiles</li>
-    <li id="footer">Join the team</li>
-  </ul>
-</div>
-<div class="col-2">
-  <!-- blank !-->
-</div>
-
+<<<<<<< HEAD
 <div class="col-1">
 <li id="mail"> <a href="mailto:audiophiles2017@gmail.com?Subject=AudioPhiles%20Inquiry" target="_top" >
   <img src="../images/mail_icon.png" alt="Email" style="width:35px; height:35px; border:4px"></a>
@@ -270,7 +296,56 @@ function carousel() {
 </div>
 <!-- !-->
         </div> <!--  last row ends !-->
+=======
+  <!--body ends !-->
+    <div class="row" id="last_row">
+  <div class="col-2" id="bottom_box">
+    <ul>
+      <li id="footer">Company</li>
+      <li id="footer">About AudioPhiles</li>
+      <li id="footer">Join the team</li>
+    </ul>
+  </div>
+  <div class="col-2"id="bottom_box">
+    <!-- blank !-->
+  </div>
+>>>>>>> 3e4619b55b3f8700621ab6dbc845fb6e7fb2dd2d
 
+  <div class="col-1"id="bottom_box">
+  <li id="mail"> <a href="mailto:audiophiles2017@gmail.com?Subject=AudioPhiles%20Inquiry" target="_top" >
+    <img src="../images/mail_icon.png" alt="Email" style="width:35px; height:35px; border:4px"></a>
+  </li> <!-- MAIL LINK ENDS HERE !-->
+  </div>
+  <div class="col-1"id="bottom_box">
+    <li id="facebook"> <a href="https://www.facebook.com">
+  <img src="../images/fb_logo.png" alt="Facebook" style="width:35px; height:35px; border:4px;"></a>
+    </li> <!-- FACEBOOK LINK ENDS HERE !-->
+  </div>
+  <div class="col-1"id="bottom_box">
+  <li id="twitter"> <a href="https://www.twitter.com/audiophiles2017">
+  <img src="../images/twitter_logo.png" alt="Twitter" style="width:35px; height:35px; border:4px;"> </a>
+  </li> <!-- TWITTER LINK ENDS HERE !-->
+  </div>
+  <div class="col-1"id="bottom_box">
+  <li id="instagram"> <a href="https://www.instagram.com/audiophiles2017/">
+  <img src="../images/instagram_logo.png" alt="Instagram" style="width:35px; height:35px; border:4px;"> </a>
+  </li> <!-- INSTAGRAM LINK ENDS HERE !-->
+  </div>
+  <div class="col-2"id="bottom_box">
+    <br>
+    <!-- BLANK !-->
+  </div>
+  <div class="col-2"id="bottom_box">
+    <ul>
+      <li id="footer">Support</li>
+      <li id="footer">Featured Artists</li>
+      <li id="footer">Tag Guidelines</li>
+    </ul>
+  </div>
+  <!-- !-->
+          </div> <!--  last row ends !-->
+</footer>
+  </div>
 
 </div>
 </html>
