@@ -57,7 +57,7 @@ function sortTable(n) {
 
 ////////  Search Songs ///////
 function searchTunes() {
-  var input, filter, table, tr, td, tb, i;
+  var input, filter, table, tr, td, tb, i,j;
   input = document.getElementById("tagSearch");
   filter = input.value.toUpperCase();
   table = document.getElementById("songLibrary");
@@ -72,5 +72,4 @@ function searchTunes() {
       }
     }
   }
-
 }
