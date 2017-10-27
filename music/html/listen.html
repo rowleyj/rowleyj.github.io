@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
   <script src="../js/playlist_sorting.js"></script>
+  <script src="../js/media_player.js"> </script>
   <title> AudioPhiles - Listen </title>
 
   <style>
@@ -68,7 +69,7 @@
   <th onclick="sortTable(5)">Plays</th>
       </tr>
       <tr> <!-- TABLE ROW 1 'UNDER HEADINGS' -->
-        <td>Boii</td> <!-- SONG -->
+        <td onclick="playAudio()">Boii</td> <!-- SONG --> <audio id="audio" src="../uploads/Boii.mp3" ></audio>
         <td>Josh</td> <!-- ARTIST -->
         <td>Hip Hop</td> <!-- GENRE -->
         <td>Chill</td> <!-- TAGS -->
