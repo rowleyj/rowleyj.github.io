@@ -28,18 +28,28 @@ div.browse_window {
   background-color: #ccc; /* Add a green color to the "active/current" link */
    color: white;
 }
-.genre_dropdown {
-      display: none;
-      visibility: hidden;
-      position: absolute;
-      background-color: black;
-      min-width: 160px;
-      padding: 12px 16px;
+audio{
+  float: left; /*push to left so title can go right */
 }
-a.tag::hover .genre_dropdown {
-  display: block;
-  visibility: visible;
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
 
+#genre_dropdown{
+   display:none;
+}
+#genres:hover ~ #genre_dropdown{
+   display:block;
+}
+
+#genre_dropdown:hover{
+   display:block;
 }
 
 
