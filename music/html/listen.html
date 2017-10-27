@@ -1,0 +1,89 @@
+<!DOCTYPE html>  <!-- ABSOLUTELY NECESSARY FOR FILE TO RUN AS HTML !-->
+<html>
+
+<!-- THIS FILE IS TO TEST BROWSE FUNTIONALITY WITH NO STYLING !-->
+
+<head>  <!-- Include all CSS links and necessary metas within head !-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
+  <script src="../js/playlist_sorting.js"></script>
+  <title> AudioPhiles - Listen </title>
+
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  #tagSearch {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  #songLibrary {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+
+  #songLibrary th, #song_library td {
+    text-align: left;
+    padding: 12px;
+  }
+
+  #songLibrary tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  </style>
+
+
+
+</head>
+
+<button onclick="playAudio()" type="button" name="button">Play</button>
+<button onclick="pauseAudio()" type="button" name="button">Pause</button>
+
+<body>
+  <input type="text" id="tagSearch" onkeyup="searchTunes()" placeholder="Search songs..." title="Type in a name">
+  <div class="library_window" id="yours">
+
+    <table id="songLibrary">
+      <tr> <!-- TABLE ROW FOR HEADINGS -->
+  <th onclick="sortTable(0)">Song</th>
+  <th onclick="sortTable(1)">Artist</th>
+  <th onclick="sortTable(2)">Genre</th>
+  <th onclick="sortTable(3)">Tags</th>
+  <th onclick="sortTable(4)">Date Added</th>
+  <th onclick="sortTable(5)">Plays</th>
+      </tr>
+      <tr> <!-- TABLE ROW 1 'UNDER HEADINGS' -->
+        <td onclick="playAudio()" ><audio src="../uploads/Boii.mp3" id="boi">
+        </audio>Boii</td> <!-- SONG -->
+        <td>Josh</td> <!-- ARTIST -->
+        <td>Hip Hop</td> <!-- GENRE -->
+        <td>Chill</td> <!-- TAGS -->
+        <td>10/26/17</td> <!-- DATE ADDED-->
+        <td>35</td> <!-- PLAYS -->
+      </tr>
+      <tr> <!-- TABLE ROW 2 'UNDER HEADINGS' -->
+        <td>Super Joshii 64</td>
+        <td>Josh</td>
+        <td>jazz</td>
+      </tr>
+      <tr> <!-- TABLE ROW 2 'UNDER HEADINGS' -->
+        <td>Drama</td>
+        <td>Jeewsh</td>
+        <td>Rap</td>
+      </tr>
+    </table>
+
+  </div>
+
+</body>

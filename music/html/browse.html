@@ -7,6 +7,7 @@
     <link rel="stylesheet" href=" ../css/backgrounds.css" >
     <link rel="stylesheet" href=" ../css/browse.css" >
     <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
+    <script src="../js/playlist_sorting.js"></script>
     <title> AudioPhiles - Browse </title>
   </head>
 
@@ -74,37 +75,46 @@
       <div class="row">
 
         <div class="col-5"> <!--col2 in browse_window !-->
-          <audio id="audio_bar" loop controls>
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-          </audio>
-          <ul>
-            <h3>Title</h3>
-            <li id="list_heading"> <!-- blank !--> </li>
+          <audio id="audio_bar" loop controls>            <!-- AUDIO MEDIA PLAYER -  TO BE REPLACED WITH JS AT SOME POINT !-->
+            <source src="horse.ogg" type="audio/ogg">     <!-- AUDIO MEDIA PLAYER -  TO BE REPLACED WITH JS AT SOME POINT !-->
+            <source src="horse.mp3" type="audio/mpeg">    <!-- AUDIO MEDIA PLAYER -  TO BE REPLACED WITH JS AT SOME POINT !-->
+              Your browser does not support the audio element.    <!-- AUDIO MEDIA PLAYER -  TO BE REPLACED WITH JS AT SOME POINT !-->
+          </audio>                                            <!-- AUDIO MEDIA PLAYER -  TO BE REPLACED WITH JS AT SOME POINT !-->
+          <ul id="song_titles">
+            <h3>Title<button onclick="sortListDir()" type="button" name="sort">Up/Down</button></h3>
+            <li><a id="song" href="../uploads/super_joshi_64.mp3" >Super Joshii 64</a></li>
+            <li><a id="song" href="../uploads/Boii.mp3">Boii</a></li>
+            <li><a id="song" href="../uploads/Drama.m4a" >Drama</a></li>
+
           </ul>
         </div>
         <div class="col-4"> <!--col3 in browse_window !-->
-          <ul>
-            <h3>Artist</h3>
+          <ul id="artist">
+            <h3>Artist<button onclick="sortListDir()" type="button" name="sort">Up/Down</button></h3>
             <li id="list_heading"></li>
           </ul>
       </div>
       <div class="col-1"> <!--col4 in browse_window !-->
-        <ul>
-          <h3>Date Added</h3>
+        <ul id="date">
+          <h3>Date Added<button onclick="sortListDir()" type="button" name="sort">Up/Down</button></h3>
           <li id="list_heading"></li>
         </ul>
     </div>
     <div class="col-1"> <!--col5 in browse_window !-->
-      <ul>
-        <h3>Plays</h3>
-        <li id="list_heading"></li>
-      </ul>
+      <ul id="number_plays">
+        <h3>Plays<button onclick="sortListDir()" type="button" name="sort">Up/Down</button></h3>
+        <li>10</li>
+        <li>15</li>
+        <li>1</li>
+        <li>7</li>
+        <li>200</li>
+        <li>1</li>
+   </ul>
   </div>
 
   </div>
 </div>
+
   </body>
 </div>
 
