@@ -48,7 +48,7 @@ body{
   background-repeat:round;
   margin: 5px;
   height: 100%;
-  overflow:hidden;
+  overflow:auto;
 }
 /* HEADING */
 .header_home {
