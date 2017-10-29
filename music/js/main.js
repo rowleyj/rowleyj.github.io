@@ -24,7 +24,7 @@ function initAudio(element){
     $('#audio-player .artist').text(artist); // finds artist thru html and puts it under cover
 
 	//Insert Cover Image
-	$('img.cover').attr('src','images/covers/' + cover); // sets cover image to path + cover variable
+	$('img.cover').attr('src','../images/' + cover); // sets cover image to path + cover variable
 
 	$('#playlist li').removeClass('active'); //removes active off every list item
     element.addClass('active'); //adds active to the current list item
