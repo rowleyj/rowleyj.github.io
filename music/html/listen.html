@@ -4,58 +4,62 @@
 <!-- THIS FILE IS TO TEST BROWSE FUNTIONALITY WITH NO STYLING !-->
 
 <head>  <!-- Include all CSS links and necessary metas within head !-->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="../css/style.css">
   <script src="../js/playlist_sorting.js"></script>
-  <script src="../js/media_player.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <!-- inlcusion of jquery -->
+
+
+
+
   <title> AudioPhiles - Listen </title>
-
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-
-  #tagSearch {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  }
-
-  #songLibrary {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd;
-    font-size: 18px;
-  }
-
-  #songLibrary th, #song_library td {
-    text-align: left;
-    padding: 12px;
-  }
-
-  #songLibrary tr {
-    border-bottom: 1px solid #ddd;
-  }
-
-  </style>
 
 
 
 </head>
+<body>
+
+<div id="container">
+	<div id="audio-image"> <!-- ALBUM COVER -->
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">  <!-- ARTIST/TITLE -->
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />  <!-- VOLUME CONTROL -->
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button> <!-- LAST SONG -->
+			<button id="play"></button> <!-- PLAY -->
+			<button id="pause"></button> <!-- PAUSE -->
+			<button id="stop"></button> <!-- STOP -->
+			<button id="next"></button> <!-- NEXT -->
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span> <!-- where song is in duration -->
+		 </div>
+		 <div class="clearfix"></div> <!-- clear floats -->
+		 <ul id="playlist" class="hidden">
+       <!-- Will need to built server side app that will upload songs here using a form input-->
+			<li song="Boii.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Boii.mp3</li>
+			<li song="Drama.m4a" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Drama.m4a</li>
+			<li song="64.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii">super_joshii_64.mp3</li>
+		</ul>
+	</div>
+
+</div>
+
 
 <!-- Media player -->
-<button onclick="playAudio()" type="button" name="button"> Play </button>
-<button onclick="pauseAudio()" type="button" name="button"> Pause </button>
-<button onclick="loop" type="button" name="button"> Loop </button>
-<button onclick="nextSong" type="button" name="button"> Next </button>
-<button onclick="lastSong" type="button" name="button"> Last </button>
-
-<body>
   <input type="text" id="tagSearch" onkeyup="searchTunes()" placeholder="Search songs..." title="Type in a name">
   <div class="library_window" id="yours">
 
@@ -69,7 +73,7 @@
   <th onclick="sortTable(5)">Plays</th>
       </tr>
       <tr> <!-- TABLE ROW 1 'UNDER HEADINGS' -->
-        <td onclick="playAudio()">Boii</td> <!-- SONG --> <audio id="audio" src="../uploads/Boii.mp3" ></audio>
+        <td >Boii</td> <!-- SONG -->
         <td>Josh</td> <!-- ARTIST -->
         <td>Hip Hop</td> <!-- GENRE -->
         <td>Chill</td> <!-- TAGS -->
@@ -89,5 +93,10 @@
     </table>
 
   </div>
+
+
+
+  <script src="../js/main.js"></script>
+  <script src="../js/jquery.js"></script>
 
 </body>
