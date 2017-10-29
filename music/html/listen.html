@@ -7,8 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../images/web_icon.png" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" href="../css/style.css">
-  <script src="../js/playlist_sorting.js"></script>
+  <link rel="stylesheet" href="../css/listen.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <!-- inlcusion of jquery -->
 
 
@@ -50,49 +49,24 @@
 		 <div class="clearfix"></div> <!-- clear floats -->
 		 <ul id="playlist" class="hidden">
        <!-- Will need to built server side app that will upload songs here using a form input-->
-			<li song="Boii.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Boii.mp3</li>
-			<li song="Drama.m4a" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Drama.m4a</li>
-			<li song="64.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii">super_joshii_64.mp3</li>
+
+			<li song="Boii.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii" >Boii</li>
+			<li song="Drama.m4a" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Drama</li>
+			<li song="64.mp3" cover="tv_joshiiboii.jpg" artist="Joshii Boii">Super Joshii 64</li>
 		</ul>
 	</div>
 
 </div>
 
+<input type="text" id="tagSearch" onkeyup="searchTunes()" placeholder="Search songs..." title="Type in a name">
+<div class="library_window" id="yours">
 
+
+</div>
 <!-- Media player -->
-  <input type="text" id="tagSearch" onkeyup="searchTunes()" placeholder="Search songs..." title="Type in a name">
-  <div class="library_window" id="yours">
 
-    <table id="songLibrary">
-      <tr> <!-- TABLE ROW FOR HEADINGS -->
-  <th onclick="sortTable(0)">Song</th>
-  <th onclick="sortTable(1)">Artist</th>
-  <th onclick="sortTable(2)">Genre</th>
-  <th onclick="sortTable(3)">Tags</th>
-  <th onclick="sortTable(4)">Date Added</th>
-  <th onclick="sortTable(5)">Plays</th>
-      </tr>
-      <tr> <!-- TABLE ROW 1 'UNDER HEADINGS' -->
-        <td >Boii</td> <!-- SONG -->
-        <td>Josh</td> <!-- ARTIST -->
-        <td>Hip Hop</td> <!-- GENRE -->
-        <td>Chill</td> <!-- TAGS -->
-        <td>10/26/17</td> <!-- DATE ADDED-->
-        <td>35</td> <!-- PLAYS -->
-      </tr>
-      <tr> <!-- TABLE ROW 2 'UNDER HEADINGS' -->
-        <td>Super Joshii 64</td>
-        <td>Josh</td>
-        <td>jazz</td>
-      </tr>
-      <tr> <!-- TABLE ROW 2 'UNDER HEADINGS' -->
-        <td>Drama</td>
-        <td>Jeewsh</td>
-        <td>Rap</td>
-      </tr>
-    </table>
 
-  </div>
+
 
 
 

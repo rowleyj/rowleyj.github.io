@@ -36,7 +36,7 @@ $('#play').click(function(){
 	audio.play();
 	$('#play').hide();
 	$('#pause').show();
-	$('#duration').fadeIn(400);
+	$('#duration').fadeIn(200);
 	showDuration();
 });
 
@@ -53,7 +53,7 @@ $('#stop').click(function(){
 	audio.currentTime = 0;//sets time back to zero
 	$('#pause').hide();
 	$('#play').show();
-	$('#duration').fadeOut(400);
+	$('#duration').fadeOut(200);
 });
 
 //Next Button
@@ -86,7 +86,7 @@ $('#playlist li').click(function () {
     initAudio($(this));
 	$('#play').hide();
 	$('#pause').show();
-	$('#duration').fadeIn(400);
+	$('#duration').fadeIn(200);
 	audio.play();
 	showDuration();
 });
