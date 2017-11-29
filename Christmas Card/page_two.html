@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <link rel=stylesheet href="css/two.css" >
+</head>
+
+<body>
+  <div class="body">
+    <div class="slideshow">
+      <img class="featured_slides" src="images/comparison.jpg">  <!-- slide 1 !-->
+      <img class="featured_slides" src="images/numero_uno.jpg">  <!-- slide 2 !-->
+      <img class="featured_slides" src="images/snap1.jpg">  <!-- slide 2 !-->
+      <img class="featured_slides" src="images/snap2.jpg">  <!-- slide 3 !-->
+      <img class="featured_slides" src="images/snap3.png">  <!-- slide 4 !-->
+      <img class="featured_slides" src="images/elf.jpg">  <!-- slide 5 !-->
+    </div>
+    <div class="card">
+      <br>
+      <p>
+        <video height="300" width="325" controls>
+        <source src="images/mm_lemony.mp4" type = "video/mp4">
+          <source src ="images/mm_lemony.ogg" type="video/ogg"> <!-- ../ removed from link !-->
+          Your browser does not support the video tag.
+        </video>
+        <br>
+      </p>
+<br>
+<br>
+
+      <br>
+      <br>
+      <br>
+      <h1>Merry Christmas Beautiful!</h1>
+      <h3>Don't miss me too much over the holidays!</h3>
+      <br>
+      <br>
+
+
+    </div>
+  </div>
+
+
+<script>  //slideshow script
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("featured_slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 10000); // Change image every 10 seconds (measured in milliseconds)
+}
+</script> <!-- end of script !-->
+
+
+</body>
